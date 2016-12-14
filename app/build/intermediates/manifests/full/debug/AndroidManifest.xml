@@ -14,6 +14,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.user.rockpaperscissors.Intro"
+            android:label="RockPaperRappers" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.user.rockpaperscissors.RockPaperRappers"
+            android:label="RockPaperRappers"
+            android:parentActivityName="com.example.user.rockpaperscissors.Intro" >
+        </activity>
     </application>
 
 </manifest>

@@ -108,6 +108,10 @@
         "source": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/res/merged/debug/layout/activity_intro.xml",
+        "source": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/src/main/res/layout/activity_intro.xml"
     },
     {
         "merged": "/Users/user/Desktop/cx3_8/week_7-AndroidStudio/Day_2/RockPaperScissors/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",

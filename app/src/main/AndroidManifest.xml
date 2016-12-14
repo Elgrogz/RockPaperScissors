@@ -9,14 +9,23 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".RockPaperRappers"
+            android:name=".Intro"
             android:label="RockPaperRappers">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER"/>
-                <action android:name="android.intent.action.MAIN"/>
-            </intent-filter>
-            
+        <intent-filter>
+            <category android:name="android.intent.category.LAUNCHER"/>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent-filter>
+
         </activity>
+
+
+        <activity
+            android:name=".RockPaperRappers"
+            android:parentActivityName=".Intro"
+            android:label="RockPaperRappers">
+
+        </activity>
+
 
     </application>
 

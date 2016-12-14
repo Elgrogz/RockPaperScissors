@@ -3,17 +3,26 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/player_choice"
-        android:hint="Choose a rapper (Dr Dre, 2Pac, Biggie"
-        android:textSize="30dp"
-        android:layout_marginTop="50dp"
+
+    <Button
+        android:id="@+id/biggie_button"
+        android:text="Biggie Smalls"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/battle_button"
-        android:text="Spit Rhymez!"
+        android:id="@+id/tupac_button"
+        android:text="2Pac"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dre_button"
+        android:text="Dr Dre"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
@@ -21,11 +30,17 @@
 
     <TextView
         android:id="@+id/display_computer_choice"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/display_winner"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
