@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">RockPaperScissors</string>
     <string name="rules">You\'re keeping it real in the mean streets of CodeClan, and you stumble, per chance, upon Dr Dre, Biggie Smalls and 2Pac.
-        Shit goes down and an epic rap battle ensues. Choose who you want to win: \nBiggie beats 2Pac \n2Pac beats Dre \nDre beats Biggie.</string>
+        Shit goes down and an epic rap battle ensues. Choose who you want to win: \n\nBiggie beats 2Pac \n\n2Pac beats Dre \n\nDre beats Biggie.</string>
 </resources>

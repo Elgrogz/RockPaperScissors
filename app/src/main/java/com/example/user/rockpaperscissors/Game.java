@@ -1,6 +1,7 @@
 package com.example.user.rockpaperscissors;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 
 /**
@@ -74,14 +75,20 @@ public class Game {
         {this.winner = "Draw";}
     }
 
+//    trying to get score counter
 
+//    public HashMap<String, Integer> scoreCount(String string) {
+//        HashMap<String, Integer> score = new HashMap<String, Integer>();
+//        score.put("Player", 0);
+//        score.put("Computer", 0);
 //
-//    public ArrayList<String> getComputerChoice() {
-//        return this.rapper;
+//        for (String word : words) {
+//            word = word.toLowerCase();
+//            if (results.get(word) == null) {
+//                results.put(word, 1);
+//            }
+//            else results.put(word, results.get(word) + 1);
+//        }
+//        return results;
 //    }
-//
-//    public void playGame(String playerChoice, String ComputerChoice) {
-//
-//    }
-
 }

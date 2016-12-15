@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent" android:background="@android:color/black">
 
 
     <Button
         android:id="@+id/biggie_button"
         android:text="Biggie Smalls"
         android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/tupac_button"
         android:text="2Pac"
         android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/dre_button"
         android:text="Dr Dre"
         android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
+        android:background="@android:color/white"
         android:id="@+id/display_computer_choice"
         android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
         android:textSize="20dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
+        android:background="@android:color/white"
         android:id="@+id/display_winner"
         android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
         android:textSize="30dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
